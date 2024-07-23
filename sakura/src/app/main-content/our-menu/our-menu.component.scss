@@ -1,0 +1,40 @@
+section {
+    background-image: url('./../../../assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg');
+    background-position: center;
+    background-repeat: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px;
+    
+    > div {
+        width: 100%;
+        margin: 48px;
+        padding-left: 48px;
+
+        > div {
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 28px;
+
+            > div {
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+img {
+    width: 240px;
+    height: 240px;
+    margin: 24px;
+}
+
+div {
+    display: flex;
+}
+
+h1 {
+    font-size: 48px;
+    color: darkred;
+}

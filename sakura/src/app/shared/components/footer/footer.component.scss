@@ -1,0 +1,15 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(2, 2, 48);
+    padding: 48px;
+    > a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
